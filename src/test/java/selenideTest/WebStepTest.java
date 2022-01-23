@@ -3,7 +3,10 @@ package selenideTest;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
-public class WebStepTest extends TestData{
+import static selenideTest.TestData.NUMBER;
+import static selenideTest.TestData.REPOSITORY;
+
+public class WebStepTest {
 
     WebStep steps = new WebStep();
 
